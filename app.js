@@ -2,9 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.use(express.static(path.join(__dirname, './public')));
-
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; //Heroku conection
 
 app.listen(port,() => console.log('SERVIDOR FUNCIONANDO AL 100'));
 
