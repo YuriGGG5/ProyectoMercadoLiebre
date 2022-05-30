@@ -1,12 +1,13 @@
 {
   "name": "mercadoliebreyuriana",
   "version": "1.0.0",
-  "description": "Web page",
+  "description": "",
   "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "Yuriana ",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
